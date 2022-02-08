@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_urielUbuntu_name": {
+            "value":"test"
+        },
+        "disks_urielUbuntu_disk1_82e2dea1abca4dabac93a726c439eb4f_externalid": {
+            "value": null
+        },
+        "networkInterfaces_urielubuntu240_externalid": {
+            "value": null
+        }
+    }
+}
