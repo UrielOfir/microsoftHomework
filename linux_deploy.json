@@ -4,6 +4,7 @@
   "parameters": {
     "projectName": {
       "type": "string",
+      "defaultValue": "urielOfir",
       "metadata": {
         "description": "Specifies a name for generating resource names."
       }
@@ -16,6 +17,7 @@
       }
     },
     "adminUsername": {
+      "defaultValue": "urielOfir",
       "type": "string",
       "metadata": {
         "description": "Specifies a username for the Virtual Machine."
@@ -23,6 +25,8 @@
     },
     "adminPublicKey": {
       "type": "string",
+      "defaultValue": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9QE+9A8v4cHeB3DtgNyQDU0EV5fQ/uuq7zVleCIakLLsmDGoEowm7I6ZA1vs5SNGA0d+FMpDD6JfF+4b7c6P/6+DMVi9nd0M3u9DPm9JCA23/lYV6gU4Euisq/sDJzyJYHL/sEHOjoh8G1ajZyfq6w+Rftsth87Di2pLauoZAderfwMVFvYm2EG99//VM95aLepk9qMN14MZ6aqWRODgXAiSs142PPSRRKANNkmI73tH2WArda6Za0kSN8DIplvNgUKpF8WPDqVA++oROgxS6uXu1pgeGHyQoLCTSDnig7OmOmTgkgROO/VSySC0YfGUcMCzMjRoMwQOwv1weufj8RjB8IIKurUWmH9MMynuhua+TPM4t+jnPy9nQye8KOcYh9a/xWyekEpgPlgkQVNG2p0Tlg0tURMddssjh98CLQUL+kVUtcBw14j+PTER7au5rsZhULBtHpEVZ/64bK/v888UWQpEKqDpCXP5lo1BNoYtjUI3vTfQUqpfRzeEVA1Z8eKW6cfodcN+vs6PtIzwX6RAedg9THdUhdtVDCMmZuRqOoZ/g4fAztBmgOLqjiUB52ER1LenBy7xBjgh2+gRDSZWiIt0o2RwrRD2MwIdeoJPhz/4wH4xwD79qZExbyoibpsZJX56Lc9ONKu1f8G2psWK2wqSE3P1IoY3BBX14zw== uriel@DESKTOP-1VSTN63
+",
       "metadata": {
         "description": "Specifies the SSH rsa public key file as a string. Use \"ssh-keygen -t rsa -b 2048\" to generate your SSH key pairs."
       }
