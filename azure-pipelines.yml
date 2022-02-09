@@ -10,7 +10,7 @@ trigger:
 pool: default
 
 steps:
-- script: |
+- script:
   az group create --location westeurope     --name urielOfir
   az deployment group create --resource-group urielOfir --template-file storage_deploy.json
   az deployment group create --resource-group urielOfir --template-file linux_deploy.json
