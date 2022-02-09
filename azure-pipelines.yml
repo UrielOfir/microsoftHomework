@@ -10,9 +10,8 @@ trigger:
 pool: default
 
 steps:
-- script:
-  az group create --location westeurope     --name urielOfir
-  az deployment group create --resource-group urielOfir --template-file storage_deploy.json
-  az deployment group create --resource-group urielOfir --template-file linux_deploy.json
+- script: az group create --location westeurope --name urielOfir;
+  az deployment group create --resource-group urielOfir --template-file storage_deploy.json;
+  az deployment group create --resource-group urielOfir --template-file linux_deploy.json;
   
   displayName: 'Build resource-group with two storages and a linux server'
