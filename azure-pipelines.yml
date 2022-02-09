@@ -8,6 +8,7 @@ trigger:
 - master
 
 pool:
+  name: deafult
   vmImage: ubuntu-latest
 
 steps:
