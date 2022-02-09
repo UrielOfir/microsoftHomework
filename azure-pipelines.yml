@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  name: deafult
+  name: urielOfir
   vmImage: ubuntu-latest
 
 steps:
