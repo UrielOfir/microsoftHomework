@@ -10,10 +10,5 @@ trigger:
 pool: default
 
 steps:
-- script: echo Hello, world!
+- script: az deployment group create --resource-group urielOfir --template-file storage_deploy.json
   displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
